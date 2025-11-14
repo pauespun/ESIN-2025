@@ -37,9 +37,13 @@ El número de la versió apareix en l'última línia.
 
 2.) Obrir un terminal i fer: 
   ~$ cd
+
   ~$ mkdir lib
+
   ~$ mv libesin_X.XX.XX_ARQ.so lib/libesin.so
-  ~$ tar xvzf libesin-includes.tgz 
+
+  ~$ tar xvzf libesin-includes.tgz
+ 
   ~$ rm libesin-includes.tgz
 
 
