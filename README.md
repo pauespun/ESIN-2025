@@ -35,7 +35,8 @@ El número de la versió apareix en l'última línia.
 ----------------------------------------------------------------------
 
 
-2.) Obrir un terminal i fer: 
+2.) Obrir un terminal i fer:
+ 
   ~$ cd
 
   ~$ mkdir lib
@@ -120,9 +121,13 @@ de la màquina.
 2.) Obrir un terminal, entrar com a 'root' i fer:
 
 ~$ mv /home/usuari/libesin_X.XX.XX_ARQ.so /usr/lib/libesin.so
+
 ~$ mv /home/usuari/libesin-includes.tgz /tmp
+
 ~$ cd /tmp ; tar xvzf libesin-includes.tgz
+
 ~$ mv incl/esin /usr/include
+
 ~$ rmdir incl ; rm libesin-includes.tgz
 
 
