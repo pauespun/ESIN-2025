@@ -1,0 +1,11 @@
+struct node {
+    string _k;
+    Valor _v;
+    node* _seg;
+    node(const string &k, const Valor &v, node* seg = nullptr);
+};
+node* **_taula;
+nat _M;
+nat _quants;
+
+int h(string &k);
